@@ -1,0 +1,70 @@
+<html>
+ <head>
+  <title>
+   haha panget
+  </title>
+  <style>
+  .parent {
+display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: repeat(4, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+
+.div1 { grid-area: 1 / 1 / 3 / 6; }
+.div2 { grid-area: 3 / 1 / 5 / 2; }
+
+html, body{
+background-position: center;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.cake{
+justify-content: center;
+align-items: center;
+
+}
+
+.confetti{
+animation: confetti 40s linear;
+position: absolute;
+ display: flex;
+ justify-content: space-between;
+  flex-direction: row;
+ left: 51%;
+top: -14%;
+}
+
+.confetti img{
+ display: flex;
+ justify-content: space-between;
+ flex-direction: row;
+ 
+}
+
+@keyframes confetti{
+0%{
+opacity: 20;
+transform: translateY(60);
+
+}
+
+30%{
+opacity: 90;
+transform: translateY(90vh);
+
+}
+}
+</style>
+ </head>
+ <body>
+ <div class="parent">
+<div class="div1"><p><br><br><br><br><br><br><br><br>panget happy birthday hahahahahahahhahaaaaaaaaaaaaaaaaaaaaaaahahahahahhaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p><center><div class="cake"><img src="cake.jfif" width="240" height="200"></div><div class="confetti"><center><img src="confetti.png" width="120px" height="90px"><br><img src="confetti.png" width="120px" height="90px"><br><img src="confetti.png" width="120px" height="90px"></center></div></center></div>
+<div class="div2"><br><br><br><br><br><br><br><br><br><br><br><div class="images"><img src="chinese.png" height="544px" width="306px"><img src="english.png" height="544px" width="306px"></div></div>
+</div>
+</body>
+</html>
+ 
